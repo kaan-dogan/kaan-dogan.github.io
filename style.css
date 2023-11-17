@@ -40,12 +40,12 @@ body {
     margin: auto;
     background-color: #424242;
     background-size: cover;
-    /* animation: changeColour_body 6s; */
+    animation: changeColour_body 6s;
     font-family: sans-serif;
 }
 main {
     color: white;
-    /* animation: changeColour_main 7s; */
+    animation: changeColour_main 7s;
     background-color: #1e1e1e;
 }
 .welcome {
@@ -54,7 +54,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* animation: slideInTop 2s ease-in, changeColour 2s forwards; */
+    animation: slideInTop 2s ease-in, changeColour 2s forwards;
 }
 .name {
     background-color: #b3b3b3;
