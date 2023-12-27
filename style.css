@@ -1,0 +1,184 @@
+@keyframes slideInTop {
+    from {
+        transform: translateY(-1000px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes changeColour {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: #1e1e1e;
+    }
+}
+@keyframes changeColour_body {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: #424242;
+    }
+}
+@keyframes changeColour_main {
+    from{
+        background-color: black;
+    }
+    to {
+        background-color: #1e1e1e;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 800px;
+    margin: auto;
+    background-color: #424242;
+    background-size: cover;
+    /* animation: changeColour_body 6s; */
+    font-family: sans-serif;
+}
+main {
+    color: white;
+    /* animation: changeColour_main 7s; */
+    background-color: #1e1e1e;
+}
+.welcome {
+    padding: 20%;
+    height: 66.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* animation: slideInTop 2s ease-in, changeColour 2s forwards; */
+}
+.name {
+    background-color: #b3b3b3;
+    border: 2px solid #1e1e1e;
+    border-radius: 20px;
+    color: black;
+    height: 150px;
+    font-family: 'Caveat', cursive;
+}
+
+.name h1 {
+    text-align: center;
+    font-size: 84px; 
+}
+
+.name p {
+    text-align: center;
+    font-size: 20px;
+}
+
+nav {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+nav a{
+    border: 2px solid #424242;
+    border-radius: 100px;
+    background-color: #424242;
+    width: 100vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 20;
+}
+
+nav a:hover{
+    transform: scale(1.04);
+}
+
+a {
+    color: #b3b3b3;
+}
+
+.line {
+    width: 800px;
+    height: 1px;
+    background-color: white;
+
+}
+
+#about img{
+    float: right;
+    margin: 0px 20px 0px 20px;
+    width: 200px;
+    height: 200px;
+    border: #b3b3b3 solid;
+    border-radius: 100px;
+}
+
+#about h1, #projects h1, #contact h1{
+    margin-top: 20px;
+    text-decoration: underline;
+    font-family: 'Inclusive Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 20;
+}
+#about{
+    height: 100vh;
+    margin: 10px;
+}
+
+#projects{
+    height: 92vh;
+    margin: 10px;
+}
+
+#projects img{
+    float: left;
+    width: 350px;
+    height: 200px;
+    border: #b3b3b3 ;
+    border-radius: 20px;
+}
+
+#projects h2 {
+    text-decoration: overline underline;
+}
+
+.projects-Text {
+    margin-left: 360px;
+}
+
+#achieve {
+    clear: both;
+    margin-top: 40px;
+}
+
+#contact-link {
+    margin-top: 20px;
+    clear: both;
+}
+
+#goTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logos{
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
