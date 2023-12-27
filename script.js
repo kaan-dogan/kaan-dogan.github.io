@@ -10,4 +10,10 @@ function scrollFunction() {
         btn.style.display = "none";
     }
 }
+function goTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
 
