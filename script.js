@@ -10,10 +10,11 @@ function scrollFunction() {
         btn.style.display = "none";
     }
 }
-function goTop() {
+function goTop(event) {
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
     });
+    event.preventDefault()
 }
 

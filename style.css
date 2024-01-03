@@ -157,13 +157,13 @@ p{
     margin-left: 360px;
 }
 
-#achieve {
+#achieve, #student_cooking, #tkinter {
     clear: both;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 #contact-link {
-    margin-top: 20px;
+    margin-top: 10px;
     clear: both;
 }
 
@@ -179,6 +179,7 @@ p{
     border-radius: 5px;
     cursor: pointer;
 }
+
 
 #logos{
     margin-top: 10px;
