@@ -1,4 +1,4 @@
-/* @keyframes slideInTop {
+@keyframes slideInTop {
     from {
         transform: translateY(-1000px);
     }
@@ -29,7 +29,7 @@
     to {
         background-color: #1e1e1e;
     }
-} */
+}
 
 * {
     margin: 0px;
@@ -56,7 +56,8 @@ main {
     justify-content: center;
     animation: slideInTop 2s ease-in, changeColour 2s forwards;
 }
-.name {
+
+.name{
     background-color: #b3b3b3;
     border: 2px solid #1e1e1e;
     border-radius: 20px;
@@ -65,9 +66,13 @@ main {
     font-family: 'Caveat', cursive;
 }
 
-.name h1 {
+.name h1{
     text-align: center;
-    font-size: 84px; 
+    font-size: 84px;
+    font-family: 'Caveat', cursive;
+    text-decoration: none;
+    clear: both;
+    margin: auto;
 }
 
 .name p {
@@ -117,7 +122,7 @@ a {
     border-radius: 100px;
 }
 
-#about h1, #projects h1, #contact h1{
+h1{
     margin-top: 20px;
     text-decoration: underline;
     font-family: 'Inclusive Sans', sans-serif;
@@ -134,7 +139,7 @@ p{
 }
 
 #projects{
-    height: 92vh;
+    height: 100vh;
     margin: 10px;
 }
 
@@ -152,11 +157,31 @@ p{
 
 #projects img{
     margin-right: 10px;
+    height: 200px;
+    width: 350px;
+}
+
+.projects{
+    height: 200px;
+    clear: both;
+    margin-top: 20px;
+    position: relative;
+}
+
+.projects a{
+    position: absolute;
+    bottom: 0;
+    height: auto;
 }
 
 #contact-link {
-    margin-top: 10px;
-    clear: both;
+    border-style: dashed;
+    display: block;
+}
+
+#logos{
+    text-align: center;
+    padding-top: 10px;
 }
 
 #goTopBtn {
@@ -170,24 +195,4 @@ p{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-
-#logos{
-    margin-top: 10px;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.projects{
-    height: 200px;
-    clear: both;
-    margin-top: 10px;
-    position: relative;
-}
-
-#projects a{
-    position: absolute;
-    bottom: 0;
-    
 }
