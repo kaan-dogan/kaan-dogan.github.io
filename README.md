@@ -9,10 +9,7 @@ Welcome to the repository for Kaan Dogan's portfolio website. This website showc
 - [Live Website](#live-website)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -49,16 +46,6 @@ To view the website locally, follow these steps:
 - JavaScript
 - Font Awesome Icons
 - Google Fonts
-
-## Contributing
-
-Feel free to contribute to this project by following the steps below:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/new-feature`.
-3. Make your changes and commit them: `git commit -m 'Add new feature'`.
-4. Push to the branch: `git push origin feature/new-feature`.
-5. Open a pull request.
 
 ## License
 
