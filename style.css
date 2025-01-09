@@ -139,8 +139,9 @@ p{
 }
 
 #projects{
-    height: 100vh;
+    height: auto;
     margin: 10px;
+    padding-bottom: 60px;
 }
 
 #projects img{
@@ -162,10 +163,16 @@ p{
 }
 
 .projects{
-    height: 200px;
+    height: auto;
+    min-height: 200px;
     clear: both;
-    margin-top: 20px;
+    margin: 20px 0;
+    padding: 20px;
     position: relative;
+}
+
+.projects-Text {
+    margin-left: 370px;
 }
 
 .projects a{
@@ -189,25 +196,29 @@ p{
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 20px;
-    padding: 10px;
+    right: calc(50% - 400px + 20px);
+    padding: 10px 20px;
     background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    z-index: 2;
 }
 
 footer {
     padding: 20px 0;
     margin-top: 20px;
+    border-top: 1px solid #424242;
+    background-color: #1e1e1e;
+    color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
 }
 
-#logos a {
-    margin: 0 10px;
-    transition: color 0.3s ease;
-}
-
-#logos a:hover {
-    color: #007BFF;
+.projects + .projects {
+    margin-top: 30px;
 }
