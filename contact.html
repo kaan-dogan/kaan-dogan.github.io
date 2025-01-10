@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaan Dogan</title>
+    <title>Contact - Kaan Dogan</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -23,10 +23,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
                     <li><a href="Kaan DOGAN.pdf" class="cv-button" download>Download CV</a></li>
                 </ul>
             </nav>
@@ -34,31 +34,32 @@
     </header>
     
     <main>
-        <section id="home" class="hero-section">
-            <div class="hero-content">
-                <div class="hero-grid">
-                    <div class="hero-text">
-                        <h1 class="animate-text">Hi, I'm <span class="highlight">Kaan</span></h1>
-                        <p class="big-text animate-text delay-1">Software Developer</p>
-                        <p class="subtitle animate-text delay-2">I build things for the web</p>
-                        <div class="cta-buttons animate-text delay-3">
-                            <a href="projects.html" class="primary-btn">View My Work</a>
-                            <a href="contact.html" class="secondary-btn">Get In Touch</a>
-                        </div>
-                    </div>
-                    <div class="hero-image animate-text delay-1">
-                        <div class="image-container">
-                            <div class="image-carousel">
-                                <img src="imgs/KaanDOGAN1.jpg" alt="Kaan Dogan" class="carousel-image active" />
-                                <img src="imgs/KaanDOGAN2.jpg" alt="Kaan Dogan" class="carousel-image" />
-                                <img src="imgs/KaanDOGAN3.jpg" alt="Kaan Dogan" class="carousel-image" />
-                                <img src="imgs/KaanDOGAN4.jpg" alt="Kaan Dogan" class="carousel-image" />
+        <section class="contact-section">
+            <div class="contact-content">
+                <h1 class="section-title">Get In Touch</h1>
+                <p class="contact-intro">Feel free to reach out! I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <a href="mailto:kaandn51@gmail.com">kaandn51@gmail.com</a>
                             </div>
-                            <div class="carousel-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div class="contact-details">
+                                <h3>LinkedIn</h3>
+                                <a href="https://www.linkedin.com/in/dogan-kaan/" target="_blank">linkedin.com/in/dogan-kaan</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div class="contact-details">
+                                <h3>GitHub</h3>
+                                <a href="https://github.com/kaan-dogan" target="_blank">github.com/kaan-dogan</a>
                             </div>
                         </div>
                     </div>
@@ -86,11 +87,11 @@
             <p>Made by Kaan Dogan &copy; <span id="year"></span></p>
         </div>
     </footer>
-    
+
     <button class="theme-toggle" aria-label="Toggle theme">
         <i class="fas fa-moon"></i>
     </button>
     
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
