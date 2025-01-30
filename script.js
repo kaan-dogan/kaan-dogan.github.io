@@ -5,35 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const currentYear = new Date().getFullYear();
     footer.innerHTML = `&copy; ${currentYear} Kaan Dogan. All rights reserved.`;
 
-    const images = document.querySelectorAll('.carousel-image');
-    const dots = document.querySelectorAll('.dot');
-    let currentIndex = 0;
-
-    function rotateImages() {
-        images.forEach(img => img.classList.remove('active'));
-        dots.forEach(dot => dot.classList.remove('active'));
-        
-        currentIndex = (currentIndex + 1) % images.length;
-        
-        images[currentIndex].classList.add('active');
-        dots[currentIndex].classList.add('active');
-    }
-
-    // Change image every 3 seconds
-    setInterval(rotateImages, 3000);
-
-    // Allow manual navigation with dots
-    dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => {
-            images.forEach(img => img.classList.remove('active'));
-            dots.forEach(dot => dot.classList.remove('active'));
-            
-            currentIndex = index;
-            images[currentIndex].classList.add('active');
-            dots[currentIndex].classList.add('active');
-        });
-    });
-
     // Hamburger menu functionality
     const hamburger = document.querySelector('.hamburger');
     const nav = document.querySelector('nav');
